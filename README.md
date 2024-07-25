@@ -1,14 +1,10 @@
-# AZ IPAM
+# TERRAFORM MODULE - AZ IPAM
 
 Based on the public project available on [github](https://github.com/Azure/ipam).
 
 Reading the [install documentation](https://azure.github.io/ipam/) can be helpfull to understand what will be deployed and how to use it.
 
 This module only handles the Full version deployed on a WebApp, using the public container image hosted on docker.io registry.
-
-## To Do List
-- Add an option for private endpoint on the resources
-- Use a private acr (needs an image build, therefore should not be included in the module but ensure that it is supported)
 
 ## Version details
 
